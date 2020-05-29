@@ -4,9 +4,9 @@ import lombok.*;
 
 @Data
 class Dish {
-    int tagDish;
-    String nameDish;
-    double priseDish;
+    private int tagDish;
+    private String nameDish;
+    private double priseDish;
 
      Dish(@NonNull int tagDish, String nameDish, double priseDish) {
         this.tagDish = tagDish;

@@ -9,4 +9,14 @@ public class RestaurantAPI {
             System.out.println(i + 1 + ". " + dishes.get(i).getNameDish() + " w cenie " + dishes.get(i).getPriseDish());
         }
     }
+    public static int tip(double price){
+        int tip;
+        if (price < 100){
+            tip = (int) (price * 0.15);
+        }else {
+            tip = (int) (price * 0.1 );
+        }
+
+        return tip;
+    }
 }

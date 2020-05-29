@@ -1,7 +1,6 @@
 package Tsss.Bum;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,14 +10,11 @@ public class Main {
         dishes.add(new Dish(2,"Pomidorowa", 17.60));
         dishes.add(new Dish(3,"Pyry", 13.50));
         dishes.add(new Dish(4,"Kopytka", 9.90));
-        dishes.add(new Dish(5,"Frytki", 9.90));
-        dishes.add(new Dish(6,"Kotlet", 44.90));
-        dishes.add(new Dish(7,"Kuciak", 48.90));
+        dishes.add(new Dish(5,"Frytki", 9.95));
+        dishes.add(new Dish(6,"Kotlet", 44.30));
+        dishes.add(new Dish(7,"Kuciak", 48.45));
 
-        System.out.println("0: " + dishes.get(0).getNameDish());
         MenuUser.menuUser(dishes);
-
-
 
     }
 }
